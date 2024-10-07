@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!-- <link rel="shortcut icon" href="" type="image/x-icon"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div>
+            First Name: <input type="text" placeholder="First name here">
+        </div>
+        <div>
+            Last Name: <input type="text" placeholder="Last name here">
+        </div>
+        <div id="gender">
+            Gender: <input type="radio" name="gender" required><span>Male: </span>
+            <input type="radio" name="gender"><span>Female: </span>
+        </div>
+        <div id="maritialStatus">
+            <label for="maritialStatus">Choose your Maritial Status:</label>
+            <select id="dropdown" name="options">
+                <option value="none">Single</option>
+                <option value="none">Married</option>
+                <option value="none" selected>Prefer not to say</option>
+            </select>
+        </div>
+        <div>
+            Enter your DOB: <input type="date" required>
+        </div>
+        <div>
+            Place of Birth: <input type="text" required>
+        </div>
+        <div>
+            Email:<input type="email" placeholder="example@google.com" required>
+        </div>
+        <div>
+            <i>I give my consent</i><input type="checkbox" required>
+        </div>
+        <div style="display: flex; justify-content: space-evenly; padding: 2px;">
+            <input type="submit" placeholder="">
+            <input type="reset" placeholder="">
+        </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
